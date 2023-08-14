@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경이미지의 크기</title>
+    <style>
+        .who{
+            height: 150px;
+            margin-bottom: 10px;
+            background: #67758e url('../c03/img/bg_size.png') no-repeat;
+        }
+.who1{
+    background-size: 100px 200px;
+    background-position: center;
+}
+.who2{
+    /* 1개 작성시 width:50px, height: auto 적용 */
+    background-size: 50px;
+}
+.who3{
+    background-size: 80% 150%;
+}
+/* 요소의 너비에 배경을 맞춤 */
+.who4{
+    background-size: cover;/* 테이블 커버라고 생각하면 됨(가로) */
+}
+/* 요소의 높이에 배경을 맞춤 */
+.who5{
+    background-size: contain;/* (세로) */
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+    <!-- 배경이미지의 크기 -->
+    <h1>background-size</h1>
+    <div class="who who1"></div>
+    <div class="who who2"></div>
+    <div class="who who3"></div>
+    <div class="who who4"></div>
+    <div class="who who5"></div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        /* tag selector */
+        p {
+            color: red;
+        }
+
+        /* id selector */
+        #menu {
+            color: blue;
+        }
+
+        /* class selector */
+        .junsu {
+            color: green;
+        }
+
+        /* asterisk:전체선택자 */
+        * {
+            /* 초기화코드 */
+            margin: 0;
+            padding: 0;
+            color: #333333;
+            line-height: 1.75;
+            list-style: none;
+        }
+
+        /* 자손선택자 */
+        ul li {
+            font-size: 24px;
+        }
+
+        li h3 {
+            background-color: gray;
+            color: aliceblue;
+        }
+
+        body p {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 태그선택자 -->
+    <p>
+        태그선택자
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos nam dolorum necessitatibus unde voluptas
+        nisi molestias placeat repellat? Impedit provident repellendus accusantium officiis soluta eveniet ratione
+        accusamus repellat voluptatem sapiente.
+    </p>
+    <!-- ul#menu> -->
+    <ul id="menu">
+        <li>아이디 선택자</li>
+        <li>아이디는 중복x</li>
+        <li>아이디는 문서에 하나만</li>
+        <li>복습하기</li>
+        <li>과제하기</li>
+    </ul>
+    <!-- 점은 class.junsu -->
+    <h1 class="junsu">
+        클래스선택자 / 중복사용 o
+    </h1>
+
+    <div>
+        Lorem ipsum2 dolor sit amet consectetur adipisicing elit. Ut libero enim aspernatur excepturi aperiam nobis
+        assumenda, laborum veritatis voluptate accusantium iste rem reprehenderit error minus cumque pariatur quos
+        numquam! Iusto.
+    </div>
+    <div>
+        전체선택자Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sequi reprehenderit modi dolor minus quis
+        nobis dolore, vitae tenetur obcaecati assumenda debitis, fugit dignissimos voluptas exercitationem ut natus
+        aspernatur adipisci.
+    </div>
+    <hr>
+    <ul>
+        <li>
+            <h3>하위선택자</h3>
+        </li>
+        <li>sit amet consectetur adipisicing elit.</li>
+        <li>Repellendus aliquid placeat, vel</li>
+        <li>Nostrum alias, vitae harum culpa quisquam asperiores esse!</li>
+    </ul>
+</body>
+
+</html>

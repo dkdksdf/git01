@@ -1,0 +1,12 @@
+shadow373737
+gozldqkqh125*
+shadow373737.dothome.co.kr 
+ID-qkqh123
+비번-gozldqkqh125*
+qkqh123.dothome.co.kr
+ctrl+b - 익스플로러 닫기
+ctrl+, -  셋팅창
+컨텐츠란 = html문서의 태그사이에 작성하는 것
+사용자입장(웹페이지)에서 보일때 -> 글자
+가상선택자에 컨텐츠 넣는 이유 = 웹페이지에서 보이려고
+css란 - html 문서를 꾸며주는 언어

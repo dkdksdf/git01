@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float quiz1</title>
+    <style>
+        /* 리셋정의 */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 공통정의 */
+        .cf::after {
+            /* css를 사용하여 html에 가짜콘텐츠 추가 */
+            content: '';
+            /* 콘텐츠는 인라인으로 추가되기 때문에 block 으로 바꿈 */
+            display: block;
+            /* float을 해제 */
+            clear: both;
+        }
+
+        .fl {
+            float: left;
+            margin: 10px;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        /* 개별속성 정의 */
+        .container {
+            width: 700px;
+            height: 400px;
+            margin: auto;
+            background-color: #ccc;
+            padding: 255px 146px;
+            box-sizing: border-box;
+        }
+
+        .container+.container {
+            background: rgb(228, 245, 159);
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background: rgb(227, 127, 137);
+        }
+        /* 2n : 2번째마다 */
+        .box:nth-child(2):not(:last-child) {
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container cf">
+        <div class="box fl"></div>
+        <div class="box fr"></div>
+    </div>
+    <div class="container cf">
+        <div class="box fl"></div>
+        <div class="box fl"></div>
+        <div class="box fr"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: red;
+        }
+
+        .cf {
+            /* content: '';
+            display: block;
+            clear: both; */
+            overflow: hidden;
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        nav,
+        aside {
+            background: rgb(189, 189, 234);
+        }
+
+        section {
+            width: 300px;
+        }
+
+        footer {
+            background: aqua;
+        }
+
+        h1,
+        section,
+        ul {
+            background: yellow;
+        }
+
+        nav li {
+            background-color: green;
+        }
+
+        .mx1 {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="cf">
+            <h1 class="fl">Logo</h1>
+            <ul class="fr">
+                <li class="fl"><a href="#">test</a></li>
+                <li class="fl"><a href="#">test</a></li>
+                <li class="fl"><a href="#">test</a></li>
+                <li class="fl"><a href="#">test</a></li>
+            </ul>
+        </header>
+        <main class="cf">
+            <nav class="fl">
+                <ul class="cf">
+                    <li class="fl"><a href="#">m1</a></li>
+                    <li class="fl mx1"><a href="#">m1</a></li>
+                    <li class="fl"><a href="#">m1</a></li>
+                </ul>
+            </nav>
+            <section class="fl">section</section>
+            <aside class="fl">aside</aside>
+
+        </main>
+        <footer>footer</footer>
+    </div>
+</body>
+
+</html>

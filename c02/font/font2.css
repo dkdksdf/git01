@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'CJU1';
+    src:url('./CJU-Light.ttf');    
+}
+@font-face {
+    font-family: 'CJU2';
+    src:url('./CJU-Bold.ttf');    
+}
+@font-face {
+    font-family: 'CJU3';
+    src:url('./CJU-Medium.ttf');    
+}
+.box1

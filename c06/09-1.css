@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.wrap {
+    background: pink;            
+    height: 500px;
+}
+
+h1,
+h2 {
+    color: white;
+    background-color: rgb(205, 173, 179);            
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 4;
+}
+
+.inner_wrap {
+    background: gray;
+    max-width: 1180px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+
+}
+
+.inner_wrap h1 {
+    position: absolute;
+    left: 0;            
+}
+.inner_wrap h2{
+    position: absolute;
+    right: 0;
+}

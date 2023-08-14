@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        .container {
+            background: red;
+            width: 500px;
+            height: 500px;
+            position: relative;
+            left: 50%;
+            /* margin-left: -250%; */
+            transform: translateX(-250px);
+
+        }
+
+        .container2 {
+            width: 500px;
+            height: 500px;
+            background: blue;
+            margin: auto;
+            position: relative;
+        }
+
+        .box1 {
+            background: #ffff00c2;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: calc(100% / 2);
+            /* margin-left: -25px; */
+            top: 50%;
+            /* margin-top: -25px; */
+            transform: translate(calc(-50px /2),calc(-50px /2));
+            transform: translateX(calc(-50px /2)), translateY(calc(-50px /2));
+        }
+        .box{
+            background: yellow;
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            left:50%;
+            top: 50%;
+            /* margin-left:calc(-250px / 2) ;
+            margin-top:calc(-250px / 2) ; */
+            transform: translate(calc(-250px / 2), calc(-250px / 2));
+        }
+        .container3{
+            width: 500px;
+            height: 500px;
+            background: black;
+            margin: auto;
+            position: relative;
+        }
+        .box5{
+            background: white;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(calc(-50px / 2), calc(-50px / 2));
+        }
+        .container4{
+            width: 500px;
+            height: 500px;
+            background: pink;
+            margin: auto;
+            position: relative;
+        }
+        .box6{           
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 10%;
+            top: 50%; 
+            color: white;
+            font-size: 2em; 
+            text-align: center;          
+        }
+        .box7{            
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            right: 10%;
+            top: 50%;      
+            color: white;
+            font-size: 2em;    
+            text-align: center;  
+        }
+        .container5{
+            width: 500px;
+            height: 500px;
+            background: plum;
+            position: relative;
+            margin: auto;            
+        }
+        .box8{
+            background: peachpuff;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(calc(-50px / 2 ),calc(-50px / 2 ));
+        }
+        .box9{
+            background: peachpuff;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: -15%;
+        }
+        .box10{
+            background: peachpuff;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            right: -15%;
+        }
+        .box11{
+            background: peachpuff;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 50%;
+            top: -30%;
+            transform: translate(calc(-50px / 2),calc(-50px / 2));
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+    </div>
+    <div class="container2">
+        <div class="box">box</div>
+    </div>
+    <div class="container3">
+        <div class="box5">box</div>
+    </div>
+    <div class="container4">
+        <div class="box6">◀</div>
+        <div class="box7">▶</div>
+    </div>
+    <div class="container5">
+        <div class="box8">box</div>
+        <div class="box9">box2</div>
+        <div class="box10">box3</div>
+        <div class="box11">box4</div>
+    </div>
+</body>
+
+</html>

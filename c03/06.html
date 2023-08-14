@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>말줄임 기호</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        ul {
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: darkblue;
+            display: block;
+            margin: 10px;
+        }
+        /* 말줄임표 만들때에는 너비, 줄바꿈x, 넘치면 숨김, 말줄임표처리 */
+        .notice a .h3{
+            width: 200px;
+            border: 1px solid;
+            white-space: nowrap;
+            /* 넘치는거 어떻게해 */
+            overflow: scroll;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .notice a .multi{
+            width: 200px;
+            border: 1px solid;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;           
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+            overflow: hidden;                       
+        }
+        
+    </style>
+</head>
+
+<body>
+    <ul class="notice">
+        <li><a href="#">
+                <h3 class="h3">시간 배분을 위하여 현명한 판단을 바랍니다. </h3>
+            </a></li>
+        <li><a href="#">
+                <h3>욕심껏 내용을 채우는 것도 좋겠습니다. </h3>
+            </a></li>
+        <li><a href="#">
+                <h3 class="multi">결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.v결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.결과물을 볼 수 있어야 하는 것이 우선입니다.</h3>
+            </a></li>
+    </ul>
+</body>
+
+</html>

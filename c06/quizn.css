@@ -1,0 +1,67 @@
+h1 {
+    color: #444;
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: 300px;
+}
+
+
+
+#opt1 {
+    flex-flow: column nowrap;
+}
+
+#opt2 {
+    position: absolute;
+    right: 0;
+}
+
+.card {
+    display: flex;
+    width: 15rem;
+    height: 21rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 1.3rem;
+}
+
+.chips {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 50px;
+    background: #c2bdbd;
+}
+
+.picture {
+    background-image: url(../c06/img/picture.png);
+    width: 240px;
+    height: 260px;
+    border-radius: 50px;
+}
+
+.text {
+    width: 71px;
+    height: 28px;
+}
+
+.text2 {
+    width: 191px;
+    height: 27px;
+    font-weight: 500px;
+    overflow: hidden;
+}
+
+.picture2 {
+    background-image: url(../c06/img/picture2.png);
+    width: 240px;
+    height: 260px;
+    border-radius: 50px;
+}
+
+.wrap {
+    display: flex;
+    width: 50%;
+    flex-flow: row;
+    flex-wrap: nowrap;
+}
