@@ -1,0 +1,30 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.5rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #222;
+}
+h1{
+    border-bottom: 1px solid #ccc;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.image{
+    border-radius: 10px;
+    background: #333;
+    padding: 10px;
+    margin: 5px;
+    color: #fff;
+}

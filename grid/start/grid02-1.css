@@ -1,0 +1,26 @@
+#wrapper{
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,100px);
+    grid-template-areas: 
+    "box1 box1 box1"
+    "box2 box3 box3"
+    "box2 . box4"   ;
+}
+.box1{
+    background: #70a0c9;
+    grid-area: box1;
+}
+.box2{
+    background: #c670c9;
+    grid-area: box2;
+}
+.box3{
+    background: #70c98f;
+    grid-area: box3;
+}
+.box4{
+    background: #e4ec91;
+    grid-area: box4;
+}
